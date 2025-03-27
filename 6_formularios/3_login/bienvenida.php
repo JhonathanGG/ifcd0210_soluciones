@@ -1,4 +1,6 @@
 <?php
+
+$usuario = $_GET['user'];
 //opcional: recibir el nombre del usuario por url
 //pista: añadir el parametro como parametro opcional de la url(nombre del fichero) en la función header("Location: ...")
 ?>
@@ -15,7 +17,8 @@
 
     <h1>Bienvenid@ usuario: <?= $usuario ?></h1>
 
-    <!-- aquí va el formulario de login con usuario(text) y contraseña(password) -->
+
+
 
 </body>
 
